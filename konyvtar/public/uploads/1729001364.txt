@@ -1,0 +1,4 @@
+  return (
+        <div className={`lampa ${props.jel ? "fel" : "le"}`} onClick={katt}>
+            {props.jel}
+        </div>
